@@ -4,6 +4,8 @@
   "description": "Exploring react",
   "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/vishnu4dev/exploring-react#readme",
   "dependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "browserlist": "^1.0.1",
     "browserslist": "^4.21.4",
     "parcel": "^2.8.2",
@@ -24,6 +27,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.12",
     "process": "^0.11.10"
   }
 }
